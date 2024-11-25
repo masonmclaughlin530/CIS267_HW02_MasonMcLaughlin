@@ -56,7 +56,7 @@ public class BrickController : MonoBehaviour
 
     public void spawnPowerUp()
     {
-        if (Random.Range(0,100) < 90)
+        if (Random.Range(0,100) < 30)
         {
             int i = Random.Range(0,powerUps.Length);
             Instantiate(powerUps[i], transform.position, Quaternion.identity);
